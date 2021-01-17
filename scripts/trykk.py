@@ -54,10 +54,13 @@ for bloc in open(sys.argv[2]).read().split('\n\n'):
 	for t in morphs:
 		for i in range(len(morphs[t])):
 			print(morphs[t][i][0], end='')
-			sep = '-'
+			sep = '·'
 			if i < len(morphs[t]) - 1:
 				if morphs[t][i+1][1] == 'INFL':
 					sep = '|'
+				if morphs[t][i+1][1] == 'DERIV':
+					sep = '-'
 				print(sep, end='')	
 		print('\t', end='')
+	print('')
 	print('')

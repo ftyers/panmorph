@@ -1,0 +1,16 @@
+# sent_id = mst-1765
+# text = Toplantılarda herkes açık kalple konuşuyordu.
+1	Toplantılarda	toplantı	NOUN	Noun	Case=Loc|Number=Plur|Person=3	5	obl	_	_
+2	herkes	herkes	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
+3	açık	açık	ADJ	Adj	_	4	amod	_	_
+4	kalple	kalp	NOUN	Noun	Case=Ins|Number=Sing|Person=3	5	obl	_	_
+5	konuşuyordu	konuş	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Past	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	Punc	_	5	punct	_	_
+
+# sent_id = mst-2715
+# text = Kırılacak kızım yavaş.
+1	Kırılacak	kır	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|Voice=Pass	3	nmod	_	_
+2	kızım	kız	ADJ	NAdj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	3	obj	_	_
+3	yavaş	yavaş	ADJ	Adj	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	Punc	_	3	punct	_	_
+
