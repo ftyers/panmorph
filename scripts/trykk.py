@@ -60,6 +60,11 @@ for bloc in open(sys.argv[2]).read().split('\n\n'):
 					sep = '|'
 				if morphs[t][i+1][1] == 'DERIV':
 					sep = '-'
+				if morphs[t][i+1][1] == 'ROOT':
+					if morphs[t][i][1] == 'DERIV':
+						sep = '-'
+					elif morphs[t][i][1] == 'INFL':
+						sep = '|'
 				print(sep, end='')	
 		print('\t', end='')
 	print('')

@@ -1,0 +1,24 @@
+# sent_id = weblog-blogspot.com_dakbangla_20050210141134_ENG_20050210_141134-0029
+# text = One unnamed naval officer was quoted saying, "Arms smuggling is a very profitable business in this region."
+1	One	one	NUM	CD	NumType=Card	4	nummod	4:nummod	_
+2	unnamed	unnamed	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
+3	naval	naval	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
+4	officer	officer	NOUN	NN	Number=Sing	6	nsubj:pass	6:nsubj:pass	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	6:aux:pass	_
+6	quoted	quote	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+7	saying	say	VERB	VBG	VerbForm=Ger	6	advcl	6:advcl	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	7:punct	_
+9	"	"	PUNCT	''	_	7	punct	7:punct	SpaceAfter=No
+10	Arms	arm	NOUN	NNS	Number=Plur	11	compound	11:compound	_
+11	smuggling	smuggling	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	16:cop	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	16:det	_
+14	very	very	ADV	RB	_	15	advmod	15:advmod	_
+15	profitable	profitable	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
+16	business	business	NOUN	NN	Number=Sing	7	ccomp	7:ccomp	_
+17	in	in	ADP	IN	_	19	case	19:case	_
+18	this	this	DET	DT	Number=Sing|PronType=Dem	19	det	19:det	_
+19	region	region	NOUN	NN	Number=Sing	16	obl	16:obl:in	SpaceAfter=No
+20	.	.	PUNCT	.	_	6	punct	6:punct	SpaceAfter=No
+21	"	"	PUNCT	''	_	6	punct	6:punct	_
+
