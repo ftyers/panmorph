@@ -1,0 +1,7 @@
+loc.1	Indicates location in space?
+loc.2	Indicates location in time?
+loc.3	Indicates static location?
+movement.1	Indicates movement?
+away.1	Indicates movement away from somewhere?
+towards.1	Indicates movement towards somewhere?
+plur.1	Indicates plural quantity?
