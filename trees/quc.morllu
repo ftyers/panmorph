@@ -1,0 +1,20 @@
+# sent_id = utexas:116
+# text = Xekos le ixoqibʼ pa le bʼe.
+1	Xekos	_	_	_	_	_	_	_	_
+1.1	X	x	INFL	_	2	COMPL	_	_	_
+1.2	e	e	INFL	_	1	B3PL	_	_	_
+1.3	kos	kos	ROOT	_	0	_	_	_	_
+2	le	_	_	_	_	_	_	_	_
+2.1	le	le	ROOT	_	0	_	_	_	_
+3	ixoqibʼ	_	_	_	_	_	_	_	_
+3.1	ixoq	ixoq	ROOT	_	0	_	_	_	_
+3.2	ibʼ	ibʼ	INFL	_	1	PL	_	_	plur.1=Yes
+4	pa	_	_	_	_	_	_	_	_
+4.1	pa	pa	ROOT	_	0	_	_	_	_
+5	le	_	_	_	_	_	_	_	_
+5.1	le	le	ROOT	_	0	_	_	_	_
+6	bʼe	_	_	_	_	_	_	_	_
+6.1	bʼe	bʼe	ROOT	_	0	_	_	_	_
+7	.	_	_	_	_	_	_	_	_
+7.1	.	_	_	_	_	_	_	_	_
+
