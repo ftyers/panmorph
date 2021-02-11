@@ -13,8 +13,8 @@
 4.2	le	la	INFL	_	1	INS	INS	52A	_
 5	konuşuyordu	_	_	_	_	_	_	_	_
 5.1	konuş	konuş	ROOT	_	0	_	_	_	_
-5.2	uyor	ıyor	INFL	_	1	PROG	_	_	_
-5.3	du	dı	INFL	_	2	PAST	_	_	_
+5.2	uyor	ıyor	INFL	_	1	PROG	_	_	prog.1=Yes
+5.3	du	dı	INFL	_	2	PAST	_	_	past.1=Yes
 6	.	_	_	_	_	_	_	_	_
 6.1	.	_	_	_	_	_	_	_	_
 
