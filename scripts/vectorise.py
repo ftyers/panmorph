@@ -11,6 +11,9 @@ def vectorise(feats, col):
 		if '=' not in i:
 			continue
 		(feat, val) = i.split('=')
+		if feat not in feats:
+			print('ERROR:',feat, 'not in', feats, file=sys.stderr)
+			sys.exit(-1)
 		fv[feat] = val
 
 	idx = 0

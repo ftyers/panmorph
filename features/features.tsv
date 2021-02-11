@@ -13,3 +13,8 @@ hab.1		Indicates habitual aspect?
 agree.1		Is an agreement marker?
 prog.1		Indicates progressive aspect?
 past.1		Indicates an action in the past?
+pres.1		Indicates an action taking place in the present?
+npast.1		Indicates an action taking place in the present or future?
+def.1		Is the referent specific in the current context?
+ind.1		Is the referent non-specific in the current context?
+comp.1		Indicates a comparand?
