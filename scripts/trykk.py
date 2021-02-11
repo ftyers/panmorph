@@ -44,7 +44,7 @@ for bloc in open(sys.argv[2]).read().split('\n\n'):
 			continue
 
 		if re.match('^[0-9]+\.[0-9]+$', row[0]):
-			morphs[token_id].append((row[1], row[3]))	
+			morphs[token_id].append((row[1], row[3], row[6], row[2]))	
 
 
 	for i in range(len(tokens)):
@@ -52,6 +52,20 @@ for bloc in open(sys.argv[2]).read().split('\n\n'):
 	print('')
 	for i in range(len(tokens)):
 		print(tree['tokens'][i][2], end='\t')
+	print('')
+	for t in morphs:
+		for i in range(len(morphs[t])):
+			sep = '-'
+			if morphs[t][i][1] == 'ROOT':
+				print(morphs[t][i][3], end='')
+			elif morphs[t][i][1] == 'DERIV':
+				print(morphs[t][i][2], end='')
+			else:	
+				print(morphs[t][i][2], end='')
+			if i < len(morphs[t]) - 1:
+				print(sep, end='')	
+
+		print('\t', end='')
 	print('')
 	for t in morphs:
 		for i in range(len(morphs[t])):
