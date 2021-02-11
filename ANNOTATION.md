@@ -4,7 +4,6 @@
 
 A split should only be made when the result constitutes a valid free unit in the language. For example,
 
-
 ## File format
 
 | ID | Morph | Morpheme | Type | ? | Level | Leipzig | UniMorf | WALS | Features  |
@@ -27,3 +26,12 @@ e.g.
 4	.	_	_	_	_	_	_	_	_
 4.1	.	_	_	_	_	_	_	_	_
 ```
+
+## Some problematic cases
+
+* *business*
+* *officer*
+* *çiftlik*
+* *çamlık*
+* *landscape*
+
