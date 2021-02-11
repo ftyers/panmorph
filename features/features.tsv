@@ -1,7 +1,13 @@
-loc.1	Indicates location in space?
-loc.2	Indicates location in time?
-loc.3	Indicates static location?
+loc.1		Indicates location in space?
+loc.2		Indicates location in time?
+loc.3		Indicates static location?
 movement.1	Indicates movement?
-away.1	Indicates movement away from somewhere?
+away.1		Indicates movement away from somewhere?
 towards.1	Indicates movement towards somewhere?
-plur.1	Indicates plural quantity?
+plur.1		Indicates plural quantity?
+plur.2		Indicates plural agreement with the subject?
+plur.3		Indicates plural agreement with the object?
+purp.1		Indicates purposive movement, e.g. going in order to?
+realis.1	Indicates a realis mood?
+hab.1		Indicates habitual aspect?
+agree.1		Is an agreement marker?

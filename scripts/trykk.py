@@ -14,6 +14,8 @@ for bloc in open(sys.argv[1]).read().split('\n\n'):
 	for line in lines:
 		if line[0] == '#':	
 			trees[sent_id]['comments'].append(line)
+		elif re.match('^[0-9]+\.[0-9]+', line):
+			continue
 		else:
 			cols = line.split('\t')
 			trees[sent_id]['tokens'].append([int(cols[0])]  + cols[1:])
