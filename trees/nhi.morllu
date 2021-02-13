@@ -1,0 +1,31 @@
+# sent_id = omitlan_2:7
+# text = Nomama otechinmacaya ciqui botas para amo mo ceicxipalti.
+1	Nomama	_	_	_	_	_	_	_	_
+1.1	No	no	INFL	_	1	_	_	_	_
+1.2	mama	mama	ROOT	_	0	_	_	_	_
+2-3	otechinmacaya	_	_	_	_	_	_	_	_
+2	o	_	_	_	_	_	_	_	_
+2.1	o	o	ROOT	_	0	_	_	_	_
+3	techinmacaya	_	_	_	_	_	_	_	_
+3.1	tech	tech	INFL	_	3	_	_	_	_
+3.2	in	in	INFL	_	2	_	_	_	_
+3.3	maca	maca	ROOT	_	0	_	_	_	_
+3.4	ya	ya	INFL	_	1	_	_	_	_
+4	ciqui	_	_	_	_	_	_	_	_
+4.1	ciqui	ciqui	ROOT	_	0	_	_	_	_
+5	botas	_	_	_	_	_	_	_	_
+5.1	bota	bota	ROOT	_	0	_	_	_	_
+5.2	s	s	INFL	_	1	PL	_	_	plur.1=Yes
+6	para	_	_	_	_	_	_	_	_
+6.1	para	para	ROOT	_	0	_	_	_	_
+7	amo	_	_	_	_	_	_	_	_
+7.1	amo	amo	ROOT	_	0	_	_	_	_
+8	mo	_	_	_	_	_	_	_	_
+8.1	mo	mo	ROOT	_	0	_	_	_	_
+9	ceicxipalti	_	_	_	_	_	_	_	_
+9.1	ce	ce	INFL	_	2	_	_	_	_
+9.2	icxi	icxi	ROOT	_	1	_	_	_	_
+9.3	palti	palti	ROOT	_	0	_	_	_	_
+10	.	_	_	_	_	_	_	_	_
+10.1	.	_	_	_	_	_	_	_	_
+
