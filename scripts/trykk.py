@@ -16,6 +16,8 @@ for bloc in open(sys.argv[1]).read().split('\n\n'):
 			trees[sent_id]['comments'].append(line)
 		elif re.match('^[0-9]+\.[0-9]+', line):
 			continue
+		elif re.match('^[0-9]+-[0-9]+', line):
+			continue
 		else:
 			cols = line.split('\t')
 			trees[sent_id]['tokens'].append([int(cols[0])]  + cols[1:])
@@ -46,6 +48,9 @@ for bloc in open(sys.argv[2]).read().split('\n\n'):
 		if re.match('^[0-9]+\.[0-9]+$', row[0]):
 			morphs[token_id].append((row[1], row[3], row[6], row[2]))	
 
+		if re.match('^[0-9]+-[0-9]+$', row[0]):
+			# FIXME: Do something better here
+			continue
 
 	for i in range(len(tokens)):
 		print(tokens[i], end='\t')
