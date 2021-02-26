@@ -1,36 +1,37 @@
 # sent_id = mst-1765
 # text = Toplantılarda herkes açık kalple konuşuyordu.
-1	Toplantılarda   _   _	_	_
-1.1	Toplantı	toplantı	ROOT		_	0
-1.2	lar	lar	INFL	_	1
-1.3	da	da	INFL	_	2
-2	herkes	herkes	_	_	_
-2.1	herkes	herkes	ROOT	_	0
-3	açık	açık	_	_	_
-3.1	açık	açık	ROOT	_	0
-4	kalple	_	_	_	_
-4.1	kalp	kalp	ROOT	_	0
-4.2	le	la	INFL	_	1
-5	konuşuyordu	_	_	_	_
-5.1	konuş	konuş	ROOT	_	0
-5.2	uyor	ıyor	INFL	_	1
-5.3	du	dı	INFL	_	2
-6	.	_	_	_	_
-6.1	.	_	_	_	_
+
+1	Toplantılarda	_	_	_	_	_	_	_	_
+1.1	Toplantı	toplantı	ROOT		_	0	_	_	_	_
+1.2	lar	lar	INFL	_	1	PL	PL	33A	plur.1=Yes
+1.3	da	da	INFL	_	2	LOC	IN	_	loc.1=Yes|loc.2=Yes
+2	herkes	herkes	_	_	_	_	_	_	_
+2.1	herkes	herkes	ROOT	_	0	_	_	_	_
+3	açık	açık	_	_	_	_	_	_	_
+3.1	açık	açık	ROOT	_	0	_	_	_	_
+4	kalple	_	_	_	_	_	_	_	_
+4.1	kalp	kalp	ROOT	_	0	_	_	_	_
+4.2	le	la	INFL	_	1	INS	INS	52A	_
+5	konuşuyordu	_	_	_	_	_	_	_	_
+5.1	konuş	konuş	ROOT	_	0	_	_	_	_
+5.2	uyor	ıyor	INFL	_	1	PROG	_	_	prog.1=Yes
+5.3	du	dı	INFL	_	2	PAST	_	_	past.1=Yes
+6	.	_	_	_	_	_	_	_	_
+6.1	.	_	_	_	_	_	_	_	_
 
 # sent_id = mst-2715
 # text = Kırılacak kızım yavaş.
-1	Kırılacak	_	_	_	_
-1.1	Kır	kır	ROOT	_	0
-1.2	ıl	ıl	DERIV	_	1
-1.3	acak	acak	INFL	_	2
-2	kızım	_	_	_	_
-2.1	kız	kız	ROOT	_	0
-2.2	ım	ım	INFL	_	1
-3	yavaş	_	_	_	_
-3.1	yavaş	yavaş	ROOT	_	0
-4	.	_	_	_	_
-4.1	.	_	_	_	_
+1	Kırılacak	_	_	_	_	_	_	_	_
+1.1	Kır	kır	ROOT	_	0	_	_	_	_
+1.2	ıl	ıl	DERIV	_	1	PASS	PASS	107A	_
+1.3	acak	acak	INFL	_	2	FUT	FUT	67A	_
+2	kızım	_	_	_	_	_	_	_	_
+2.1	kız	kız	ROOT	_	0	_	_	_	_
+2.2	ım	ım	INFL	_	1	POSS.1SG	PSS1S	59A	_
+3	yavaş	_	_	_	_	_	_	_	_
+3.1	yavaş	yavaş	ROOT	_	0	_	_	_	_
+4	.	_	_	_	_	_	_	_	_
+4.1	.	_	_	_	_	_	_	_	_
 
 # sent_id = mst-1350
 # text = Kıraathanenin kapısı gıcırdayarak açıldı.

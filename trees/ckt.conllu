@@ -1,0 +1,11 @@
+# sent_id = Money:10
+# text = Нэмыӄэй ныманэванԓясӄэвӄэнат.
+# text[phon] = neməqej nəmanewanɬasqewqenat
+# text[rus] = Тоже приходили просить денег.
+# text[eng] = They also came to ask for money.
+# labels = complete-dep anno-fran
+1	Нэмыӄэй	_	ADV	_	_	2	advmod	2:advmod	Gloss=тоже
+2	ныманэванԓясӄэвӄэнат	_	VERB	_	_	0	root	0:root	Gloss=ST-деньги-просить-MCP-ST.3SG-PL|SpaceAfter=No
+2.1	манэ	_	NOUN	_	_	_	_	2:obj	Gloss=деньги
+3	.	_	PUNCT	_	_	2	punct	2:punct	_
+

@@ -54,4 +54,32 @@
 28	schoolgirls	schoolgirl	NOUN	PL-NOM	Number=Plur	19	conj	_	SpaceAfter=No
 29	.	.	PUNCT	Period	_	2	punct	_	_
 
+# sent_id = weblog-blogspot.com_alaindewitt_20060924104100_ENG_20060924_104100-0247
+# text = But the longer it takes us to understand the new landscape of this war, the more costly and painful the victory will be.
+1	But	but	CCONJ	CC	_	20	cc	20:cc	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	mark	3:mark	_
+3	longer	longer	ADV	RBR	Degree=Cmp	5	obj	5:obj	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	5:expl	_
+5	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	17:advcl	_
+6	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obj	5:obj	_
+7	to	to	PART	TO	_	8	mark	8:mark	_
+8	understand	understand	VERB	VB	VerbForm=Inf	5	csubj	5:csubj	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	_
+10	new	new	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
+11	landscape	landscape	NOUN	NN	Number=Sing	8	obj	8:obj	_
+12	of	of	ADP	IN	_	14	case	14:case	_
+13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	14:det	_
+14	war	war	NOUN	NN	Number=Sing	11	nmod	11:nmod:of	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	18:punct	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	mark	17:mark	_
+17	more	more	ADV	RBR	_	18	advmod	18:advmod	_
+18	costly	costly	ADJ	JJ	Degree=Pos	0	root	0:root	_
+19	and	and	CCONJ	CC	_	20	cc	20:cc	_
+20	painful	painful	ADJ	JJ	Degree=Pos	18	conj	18:conj:and	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	_
+22	victory	victory	NOUN	NN	Number=Sing	18	nsubj	18:nsubj|20:nsubj	_
+23	will	will	AUX	MD	VerbForm=Fin	18	aux	18:aux	_
+24	be	be	AUX	VB	VerbForm=Inf	18	cop	18:cop	SpaceAfter=No
+25	.	.	PUNCT	.	_	18	punct	18:punct	_
+
 
