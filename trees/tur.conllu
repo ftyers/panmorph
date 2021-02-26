@@ -14,3 +14,21 @@
 3	yavaş	yavaş	ADJ	Adj	_	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Punc	_	3	punct	_	_
 
+# sent_id = mst-1350
+# text = Kıraathanenin kapısı gıcırdayarak açıldı.
+1	Kıraathanenin	kıraathane	NOUN	Noun	Case=Gen|Number=Sing|Person=3	2	nmod:poss	_	_
+2	kapısı	kapı	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nsubj	_	_
+3	gıcırdayarak	gıcırda	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	4	nmod	_	_
+4	açıldı	aç	VERB	Verb	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	Punc	_	4	punct	_	_
+
+# sent_id = mst-1399
+# text = Gözlerinde korku ve acı ile bize bakıyordu.
+1	Gözlerinde	göz	NOUN	Noun	Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	2	nmod	_	_
+2	korku	korku	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	obl	_	_
+3	ve	ve	CCONJ	Conj	_	4	cc	_	_
+4	acı	acı	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	2	conj	_	_
+5	ile	ile	ADP	PCNom	_	2	case	_	_
+6	bize	biz	PRON	Pers	Case=Dat|Number=Plur|Person=1|PronType=Prs	7	obl	_	_
+7	bakıyordu	bak	VERB	Verb	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Polite=Infm|Tense=Past	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	Punc	_	7	punct	_	_
