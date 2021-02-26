@@ -18,3 +18,10 @@ npast.1		Indicates an action taking place in the present or future?
 def.1		Is the referent specific in the current context?
 ind.1		Is the referent non-specific in the current context?
 comp.1		Indicates a comparand?
+subord.1    Indicates subordination?
+manner.1    Indicates manner?
+poss.1      Marks possessor?
+poss.2      Marks possessed?
+cmpnd.1     Indicates compound?
+nfh.1       Indicates non-first hand?
+pass.1      Promotes direct object to subject?
