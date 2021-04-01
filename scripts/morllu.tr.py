@@ -1,33 +1,42 @@
 # -*- coding: utf-8 -*-
 import sys
-import re
 from collections import defaultdict
-from copy import deepcopy
 
-regex_puncs = r'[^a-zA-Z0-9çşşğıüöÜÖÇŞĞİǩťṕḉǯžʒǮƷŽǨḈṔŤIӀ\- ]'
+# This script takes morphologically segmented words line-by-line for a given string as input and
+# prints out words in morllu format.
 
-regexs_not_sentence_boundry = (r'[0-9]+\.',  # dates, numbers
-                               r'\([^\)]*\.',  # inside_paranthesis
-                               r'[\"\`\“][^\"\”\'\.]+[\.!]*[^\"\”\'\.]+[\"\`\“]',
-                               r'\b[A-ZÜÖÇŞĞİǮƷŽǨḈṔŤII]+\.',  # abreviations
-                               r'[\.\?!][ ]?[a-zçşşğıüöǩťṕḉǯžʒ]+',
-                               r'[\.\?!][\”\'\"][ ]?[a-zçşşğıüöǩťṕḉǯžʒ,]+'
-                               )
+# We used the tokenization script (adapted) and the Turkish morphological segmentation tool developed by Çağrı Çöltekin
+# which can be found here:
+# https://github.com/coltekin/TRmorph
 
-sentence = sys.stdin.readlines()
-words_segmented = deepcopy(sentence)
+words_segmented = sys.stdin.readlines()
 
-'''
-This creates three nested dictionaries for each tokenized element.  The innermost dictionary keeps items which are
-defined as tuples of fields (listed as column_titles below) and their corresponding value for each token.
-The second dictionary keeps items of dictionaries at the element level. It consists of word lines having
-those tuples. It has a key for each token indicating its place in the element. The outermost dictionary at
-last corresponds to each element with keys defined with a specific id number.
+# This decreases the number of analyses produced by the segmenter
+cleared_words_segmented = list()
 
-The original format has 10 fields but here there are eleven with one extra named 'DUMMY' that has new line
-values for each word.  It is to be used for later when the defined structure below is turned into a text.
-It separates each word line.
-'''
+tokens = list()
+for segmentation in words_segmented:
+    # print(segmentation)
+    pair = segmentation.split('\t')
+    # This eliminates analyses that is less likely to occur
+    if len(pair) > 1:
+        if str(pair[0]) == str(pair[1]).replace('-', '').strip('\n') or \
+                str(pair[0]) == str(pair[1]).replace('-', '').capitalize().strip('\n'):
+            # This puts morphemes in separate lines ready for morllu format
+            morpheme = segmentation.replace('\t', '\n').replace('-', '\n').split('\n')
+            num_tokens = len(tokens) - 1
+            # This checks if the current token is a new one and if not, removes the empty token preceding the morpheme
+            # from the list so that later it can get the correct morpheme id.
+            if cleared_words_segmented.__contains__(morpheme[0]) and tokens[num_tokens] == (morpheme[0]):
+                cleared_words_segmented.reverse()
+                cleared_words_segmented.remove('')
+                cleared_words_segmented.reverse()
+            for m in morpheme:
+                cleared_words_segmented.append(m)
+            tokens.append(pair[0])
+
+# print(cleared_words_segmented)
+cleared_words_segmented.pop()
 column_titles = ('ID', 'MORPH', 'MORPHEME', 'TYPE', '?', 'LEVEL', 'LEIPZIG', 'UNIMORP', 'WALS', 'FEATURES')
 
 element_id = 0
@@ -37,10 +46,13 @@ elements_nmb = 0
 
 morrlu_format = list()
 
-for element in words_segmented:
+copy_cleared_words_segmented = cleared_words_segmented
+# This creates a dictionary in which every morpheme has a value for the related column in the format
+for element in cleared_words_segmented:
     word_line_slots = defaultdict()
     elements_nmb += 1
-    if element == '\n':
+    # This deals with the numbering for each morpheme and word for ID column
+    if element == '':
         word_id += 1
         element_subid = 0
         element_id = str(word_id)
@@ -51,24 +63,39 @@ for element in words_segmented:
         if element_subid == 0:
             element_id = str(word_id)
         element_subid += 1
+
+        count = len(morrlu_format) - 1
+        for word_line in morrlu_format:
+            if morrlu_format[count]['MORPH'] != element.rstrip('\n') and not str(word_line['ID']).__contains__('.') and \
+                    word_line['MORPH'] == element.rstrip('\n'):
+                element_id = word_line['ID']
+                element_subid = 1
+
     for title in column_titles:
         if title == 'ID':
             word_line_slots[title] = element_id
 
         elif title == 'MORPH' or title == 'MORPHEME':
             word_line_slots[title] = element.rstrip('\n')
+            if not element_id.__contains__('.') and title == 'MORPHEME':
+                word_line_slots[title] = '-'
+        elif title == 'TYPE':
+            if element_id.__contains__('.1'):
+                word_line_slots[title] = 'ROOT'
+            elif not element_id.__contains__('.'):
+                word_line_slots[title] = '-'
+            else:
+                word_line_slots[title] = 'INFL'
 
+        elif title == 'LEVEL' and element_id.__contains__('.'):
+            subparts = element_id.split('.')
+            word_line_slots[title] = int(subparts[1]) - 1
         else:
             word_line_slots[title] = '-'
-
     morrlu_format.append(word_line_slots)
 
-'''
-This turns the previous structure into a text format in order to provide it as an argument for
-sys.stdout.write() function.
-'''
+# This turns the previous structure into a text format in order to provide it as an argument for
 morrlu_format_txt = ''
-sent_id = 1
 
 for item in morrlu_format:
     word_line = ''

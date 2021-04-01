@@ -36,30 +36,73 @@
 # sent_id = mst-1350
 # text = Kıraathanenin kapısı gıcırdayarak açıldı.
 1       Kıraathanenin   _       _       _       _       _       _       _       _
-1.1       Kıraat   Kıraat       ROOT       _       1       _       _       _       _
-1.2       hane   hane       ROOT       _       0       _       _       _       _
-1.3       nin   In       INFL       _       2       _       _       _       poss.1=Yes
-2       kapısı       _       _       _       _       _       _       _
-2.1       kapı  kapı       ROOT       _       0       _       _       _       _
-2.2       sı  I       INFL       _       1       _       _       _       poss.2=Yes
+1.1     Kıraat  kıraat  ROOT    _       1       _       _       _       _
+1.2     hane    hane    ROOT    _       0       _       _       _       _
+1.3     nin     ın      INFL    _       2       _       _       _       poss.1=Yes
+2       kapısı  _       _       _       _       _       _       _
+2.1     kapı    kapı    ROOT    _       0       _       _       _       _
+2.2     sı      ı       INFL    _       1       _       _       _       poss.2=Yes
 3       gıcırdayarak    _       _       _       _       _       _       _       _
-3.1       gıcırda    gıcırda       ROOT       _       0       _       _       _       _
-3.2       yarak    arak       INFL       _       1       _       _       _       subord.1=Yes|manner.1=Yes
+3.1     gıcırda gıcırda ROOT    _       0       _       _       _       _
+3.2     yarak   arak    INFL    _       1       _       _       _       subord.1=Yes|manner.1=Yes
 4       açıldı  _       _       _       _       _       _       _       _
-4.1       aç  aç       ROOT       _       0       _       _       _       _
-4.2       ıl  ıl       DERIV       _       1       PASS       PASS       _       pass.1=Yes
-4.3       dı  dı       INFL       _       2       _       _       _       past.1=Yes
+4.1     aç      aç      ROOT    _       0       _       _       _       _
+4.2     ıl      ıl      DERIV   _       1       PASS    PASS    _       pass.1=Yes
+4.3     dı      dı      INFL    _       2       _       _       _       past.1=Yes
 5       .       _       _       _       _       _       _       _       _
-5.1       .       _       _       _       _       _       _       _       _
+5.1     .       _       _       _       _       _       _       _       _
+
 
 # sent_id = mst-1399
 # text = Gözlerinde korku ve acı ile bize bakıyordu.
-1       Gözlerinde      _       _       _       _       _       _       _       _
-2       korku   _       _       _       _       _       _       _       _
-3       ve      _       _       _       _       _       _       _       _
-4       acı     _       _       _       _       _       _       _       _
-5       ile     _       _       _       _       _       _       _       _
-6       bize    _       _       _       _       _       _       _       _
-7       bakıyordu       _       _       _       _       _       _       _       _
-8       .       _       _       _       _       _       _       _       _
+1       Gözlerinde      -       -       -       -       -       -       -       -
+1.1     göz     göz     ROOT    -       0       -       -       -       -
+1.2     ler     ler     INFL    -       1       -       -       -       -
+1.3     in      in      INFL    -       2       -       -       -       -
+1.4     de      de      INFL    -       3       -       -       -       -
+2       korku   -       -       -       -       -       -       -       -
+2.1     korku   korku   ROOT    -       0       -       -       -       -
+3       ve      -       -       -       -       -       -       -       -
+3.1     ve      ve      ROOT    -       0       -       -       -       -
+4       acı     -       -       -       -       -       -       -       -
+4.1     acı     acı     ROOT    -       0       -       -       -       -
+5       ile     -       -       -       -       -       -       -       -
+5.1     ile     ile     ROOT    -       0       -       -       -       -
+6       bize    -       -       -       -       -       -       -       -
+6.1     biz     biz     ROOT    -       0       -       -       -       -
+6.2     e       e       INFL    -       1       -       -       -       -
+7       bakıyordu       -       -       -       -       -       -       -       -
+7.1     bak     bak     ROOT    -       0       -       -       -       -
+7.2     ıyor    ıyor    INFL    -       1       -       -       -       -
+7.3     du      du      INFL    -       2       -       -       -       -
+8       .       -       -       -       -       -       -       -       -
+8.1     .       .       ROOT    -       0       -       -       -       -
 
+# sent_id = mst-1400
+# text = Anneciği ile birlikte bir bardak pekmezi paylaşmışlar.
+1       Anneciği        -       -       -       -       -       -       -       -
+1.1     anne    anne    ROOT    -       0       -       -       -       -
+1.2     ciğ     ciğ     INFL    -       1       -       -       -       -
+1.3     i       i       INFL    -       2       -       -       -       -
+2       ile     -       -       -       -       -       -       -       -
+2.1     ile     ile     ROOT    -       0       -       -       -       -
+3       birlikte        -       -       -       -       -       -       -       -
+3.1     bir     bir     ROOT    -       0       -       -       -       -
+3.2     lik     lik     INFL    -       1       -       -       -       -
+3.3     te      te      INFL    -       2       -       -       -       -
+3       birlikte        -       -       -       -       -       -       -       -
+3.1     birlikte        birlikte        ROOT    -       0       -       -       -       -
+4       bir     -       -       -       -       -       -       -       -
+4.1     bir     bir     ROOT    -       0       -       -       -       -
+5       bardak  -       -       -       -       -       -       -       -
+5.1     bardak  bardak  ROOT    -       0       -       -       -       -
+6       pekmezi -       -       -       -       -       -       -       -
+6.1     pekmez  pekmez  ROOT    -       0       -       -       -       -
+6.2     i       i       INFL    -       1       -       -       -       -
+7       paylaşmışlar    -       -       -       -       -       -       -       -
+7.1     pay     pay     ROOT    -       0       -       -       -       -
+7.2     laş     laş     INFL    -       1       -       -       -       -
+7.3     mış     mış     INFL    -       2       -       -       -       -
+7.4     lar     lar     INFL    -       3       -       -       -       -
+8       .       -       -       -       -       -       -       -       -
+8.1     .       .       ROOT    -       0       -       -       -       -
