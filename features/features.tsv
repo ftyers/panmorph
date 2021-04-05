@@ -18,50 +18,69 @@ npast.1		Indicates an action taking place in the present or future?
 def.1		Is the referent specific in the current context?
 ind.1		Is the referent non-specific in the current context?
 comp.1		Indicates a comparand?
-subord.1    Indicates subordination?
-manner.1    Indicates manner?
-poss.1      Marks possessor?
-poss.2      Marks possessed?
-cmpnd.1     Indicates compound?
-nfh.1       Indicates non-first hand?
-pass.1      Promotes direct object to subject?
+subord.1    	Indicates subordination?
+manner.1    	Indicates manner?
+poss.1      	Marks possessor?
+poss.2      	Marks possessed?
+cmpnd.1     	Indicates compound?
+nfh.1       	Indicates non-first hand?
+pass.1      	Promotes direct object to subject?
 
-oblq.1      Marks the oblique object?
-compl.1     Marks the complement of a post-position or adjective?
-causee.1    Marks the causee of the action in a causative construction?
-ben.1       Marks the recipient or beneficiary of an action?
-targ.1      Marks the destination or target of an action?
-gen.1       Indicates a generic/categorical object?
-part.1      Indicates a partitive construction?
-pron.1      Forms pronominal?
-agree.2     Agrees in person?
-pers.1      Refers to 1st person?
-pers.2      Refers to 2st person?
-pers.3      Refers to 3st person?
-com.1       Has comitative meaning?
-inst.1      Has instrumental meaning?
-conj.1      Has conjunctive meaning?
-ass.1       Indicates assumption?
-oblig.1     Indicates obligation?
-perm.1      Indicates permission?
-pot.1       Indicates potential modality?
-pros.1      Indicates prospective aspect?
-impf.1      Indicates imperfective aspect?
-subj.1      Indicates subjectivity?
-abil.1      Indicates ability?
-posib.1     Indicates possibility?
-spec.1      Indicates speculation?
-imp.1       Indicates imperative mood?
-cfact.1     Indicates counterfactual?
-genrl.1     Indicates generalized modality?
-form.1      Expresses formality?
-hyp.1       Indicates hypothetical?
-fut.1       Expresses future?
-nonf.1      Indicates non-fact modality?
-ded.1       Indicates deduction?
-cont.1      Expresses continuity?
-sudd.1      Expresses suddenness?
-pers.1      Expresses persuasion?
-fin.1       Indicates finite verb form?
-nom.1       Indicates nominatization?
+cmpnd.2     	Indicates an adjective compound?
+adj.1		Forms attributive adjectives?
+type.1		Indicates the relationship between different specimens of the same type
+sepr.1		Indicates separation?
+source.1	Indicates source?
+cause.1		Indicates cause?
+route.1		Indicates route?
+modif.1		Indicates modifier in a noun phrase?
+obliq.1     	Marks the oblique object?
+compl.1    	Marks the complement of a post-position?
+compl.2     	Marks the complement of an adjective?
+causee.1    	Marks the causee of the action in a causative construction?
+ben.1       	Marks the recipient or beneficiary of an action?
+price.1     	Indicates the price?
+gen.1       	Indicates a generic/categorical object?
+part.1     	Marks the head in partitive constructions?
+part.2		Marks the entity or the set in partitive constructions?
+nominal.1	Marks a subject complement and indicates nominal predication?
+subj.1		Marks the subject of non-finite subordinate clause?
+pron.1      	Indicates pronominals?
+agree.2     	Agrees in person?
+pers.1      	Refers to 1st person?
+pers.2      	Refers to 2st person?
+pers.3      	Refers to 3st person?
+com.1       	Has comitative meaning?
+inst.1      	Has instrumental meaning?
+conj.1      	Has conjunctive meaning?
+voice.1		Incicates causative?
+voice.3		Incicates reflexive?
+voice.4		Incicates reciprocal?
+neg.1		Indicates negation?
 
+ass.1       	Indicates assumption?
+oblig.1     	Indicates obligation?
+perm.1     	Indicates permission?
+pot.1      	Indicates potential modality?
+pros.1     	Indicates prospective aspect?
+imprf.1     	Indicates imperfective aspect?
+prf.1     	Indicates perfective aspect?
+cfact.1     	Indicates counter-factual?
+
+subj.1      	Indicates subjectivity?
+abil.1     	Indicates ability?
+posib.1     	Indicates possibility?
+spec.1      	Indicates speculation?
+imp.1       	Indicates imperative mood?
+genrl.1     	Indicates generalized modality?
+form.1      	Expresses formality?
+hyp.1       	Indicates hypothetical?
+fut.1       	Expresses future?
+nonf.1      	Indicates non-fact modality?
+ded.1       	Indicates deduction?
+cont.1      	Expresses continuity?
+sudd.1      	Expresses suddenness?
+pers.1      	Expresses persuasion?
+fin.1       	Indicates finite verb form?
+fin.1       	Indicates non-finite verb form?
+nom.1       	Indicates nominatization?

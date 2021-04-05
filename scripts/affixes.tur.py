@@ -50,37 +50,37 @@ nominal_inflectional_sufffixes = {
     'mız': (['mız', 'miz', 'müz', 'muz', 'ımız', 'imiz', 'ümüz', 'umuz'], 'POSS.1PL', 'PSS1PL',
             'pul.1=yes|poss.2=|agree.1'),  # 1st person plural possessive suffix
     'nız': (['nız', 'niz', 'nüz', 'nuz', 'ınız', 'iniz', 'ünüz', 'unuz'], 'POSS.2PL', 'PSS2PL',
-            'pul.1=yes|poss.2=|agree.1'),  # 2st person plural possessive suffix
+            'pul.1=yes|poss.2=|agree.1|form.1='),  # 2st person plural possessive suffix
 
-    'yı' : (['yı','yi', 'yu', 'yü'], 'ACC', 'ACC', '-'),  # accusative case
-    'a' : (['a','e', 'ya','ye'], 'DAT', 'DAT', 'movement.1=|towards.1=|oblique.1='),        # dative case
-    'da': (['da', 'de', 'ta', 'te'], 'LOC', ['AT', 'IN', 'ON'], 'loc.1=|loc.2=|loc.3='),    # locative case
-    'dan': (['dan', 'den', 'tan', 'ten'], 'ABL', 'ABL', 'away.1='),    # ablative case
-    'nın': ([ 'nın', 'nin', 'nun', 'nün'], 'GEN', 'GEN', 'poss.1=|poss.2='),  # genitive case   # 'ın', 'in', 'un', 'ün'
+    'yı' : (['yı','yi', 'yu', 'yü'], 'ACC', 'ACC', 'gen.1=|part.1=|def.1=|ind.1=|'),  # accusative case
+    'a' : (['a','e', 'ya','ye'], 'DAT', 'DAT', 'movement.1=|towards.1=|obliq.1=|ben.1=|purp.1=|price.1=|compl.1=|compl.2=|causee.1='),        # dative case
+    'da': (['da', 'de', 'ta', 'te'], 'LOC', ['AT', 'IN', 'ON'], 'loc.1=|loc.2=|loc.3=|obliq.1=|compnd.1=|compnd.2=|modif.1=|nominal.1='),    # locative case
+    'dan': (['dan', 'den', 'tan', 'ten'], 'ABL', 'ABL', 'movement.1=|away.1=|sepr.1=|source.1=|cause.1=|route.1=|obliq.1=|compl.1=|compl.2=|modif.1=|part.2=|nominal.1=|comp.1='),    # ablative case
+    'nın': ([ 'nın', 'nin', 'nun', 'nün'], 'GEN', 'GEN', 'poss.1=|poss.2=|nominal.1=|subj.1=|type.1=|part.2=|'),  # genitive case   # 'ın', 'in', 'un', 'ün'
 
-    'la': (['la', 'le', 'yla', 'yle'], 'INS', 'INS', 'com.1|inst.1|conj.1'),  # instrumental/comitative marker
+    'la': (['la', 'le', 'yla', 'yle'], 'INS', 'INS', 'com.1=|inst.1=|conj.1=|obliq.1='),  # instrumental/comitative marker
+
+    'ki': (['ki', 'kin', 'kü', 'kün'], '', '', 'pron.1=|adj.1=|loc.2=|cmpnd.1='),  #
 
 }
 
 verbal_inflectional_sufffixes = {
     # Verbal inflectional suffixes
-    'dır': (['dır', 'dir', 'dür', 'dur', 'tur', 'tür', 'tır', 'tir'], 'CAUS', 'CAUS', ''),  # causative marker1
-    't': (['t'], 'CAUS', 'CAUS'), # causative marker2
-    'ıt': (['ıt', 'it', 'üt', 'ut'], 'CAUS', 'CAUS'), # causative marker3
-    'ır': (['ır', 'ir', 'ür', 'ur'], 'CAUS', 'CAUS'),  # causative marker4
-    'ar': (['ar', 'er'], 'CAUS', 'CAUS'),  # causative marker5
-    'art': (['art', 'ert'], 'CAUS', 'CAUS'),  # causative marker6
+    'dır': (['dır', 'dir', 'dür', 'dur', 'tur', 'tür', 'tır', 'tir'], 'CAUS', 'CAUS', 'voice.1=yes'),  # causative marker1
+    't': (['t'], 'CAUS', 'CAUS', 'voice.1=yes'), # causative marker2
+    'ıt': (['ıt', 'it', 'üt', 'ut'], 'CAUS', 'CAUS', 'voice.1=yes'), # causative marker3
+    'ır': (['ır', 'ir', 'ür', 'ur'], 'CAUS', 'CAUS', 'voice.1=yes'),  # causative marker4
+    'ar': (['ar', 'er'], 'CAUS', 'CAUS', 'voice.1=yes'),  # causative marker5
+    'art': (['art', 'ert'], 'CAUS', 'CAUS', 'voice.1=yes'),  # causative marker6
 
-    'n': (['n'], 'PASS', 'PASS'), # passive marker1
-    'ın': (['in', 'ın', 'ün', 'un'], 'PASS', 'PASS'), # passive marker2
-    'ıl': (['ıl', 'il', 'ul', 'ül'], 'PASS', 'PASS'),  # passive marker3
+    'n': (['n'], 'PASS|REFL', 'PASS|REFL', 'pass.1=|voice.3='), # passive marker1
+    'ın': (['in', 'ın', 'ün', 'un'], 'PASS|REFL', 'PASS|REFL', 'pass.1=|voice.3='), # passive marker2
+    'ıl': (['ıl', 'il', 'ul', 'ül'], 'PASS', 'PASS', 'pass.1='),  # passive marker3
 
-    'in': (['in', 'n', 'ın', 'ün', 'un'], 'REFL', 'REFL'),  # reflexive marker
+    'ış': (['ış', 'ş', 'iş', 'üş', 'uş'], 'RECP', 'RECP', 'voice.4=yes'),  # reciprocal marker
 
-    'ış': (['ış', 'ş', 'iş', 'üş', 'uş'], 'RECP', 'RECP'),  # reciprocal marker
-
-    'ma': (['ma', 'me'], 'NEG', 'NEG'),  # negation marker
-    'mı': (['mı', 'mi', 'mu', 'mü'], 'NEG', 'NEG'),  # negation marker
+    'ma': (['ma', 'me'], 'NEG', 'NEG', 'neg.1=yes'),  # negation marker
+    'mı': (['mı', 'mi', 'mu', 'mü'], 'NEG', 'NEG', 'neg.1=yes'),  # negation marker (before iyor)
 }
 
 TMA = {
@@ -118,7 +118,7 @@ TMA = {
 
     # TMA
     # The forms -mIştI and -DIydI (21.2.1) combine elements of perfectivity and imperfectivity
-    'dı': (['dı', 'di', 'dü', 'du', 'tı', 'ti', 'tu', 'tü'], 'PAST|PERF|DRCT||IMPF', 'PAST|PERF|DRCT||IMPF|SUBJV|IND'), # '||' separates features of (y)DI past copula
+    'dı': (['dı', 'di', 'dü', 'du', 'tı', 'ti', 'tu', 'tü'], 'PAST|PERF|DRCT||IMPF', 'PAST|PERF|DRCT||IMPF|SUBJV|IND', 'past.1=|prf.1=|imprf.1=|cfact.1=|'), # '||' separates features of (y)DI past copula
     # It should be noted that the -mIş component of -mIştIr has no (evidential) modality value
     # of its own; it is purely past/perfective
     'mış': (['mış', 'miş', 'müş', 'muş'], 'PAST|PERF|NFH|DRCT?|INFER', 'PAST|PERF|NFH|DRCT?|INFER'),
@@ -227,7 +227,6 @@ subordinating_suffixes = {
 }
 
 derivational_suffixes = {
-    'ki': ['ki', 'kin'],  #
 
     'aç': ['aç', 'eç', 'ac', 'ec'],
     'can' : ['can', 'eç', 'ac', 'ec'],
