@@ -72,6 +72,7 @@ abil.1     	Indicates ability?
 posib.1     	Indicates possibility?
 spec.1      	Indicates speculation?
 imp.1       	Indicates imperative mood?
+cfact.1     Indicates counterfactual?
 genrl.1     	Indicates generalized modality?
 form.1      	Expresses formality?
 hyp.1       	Indicates hypothetical?
@@ -80,7 +81,7 @@ nonf.1      	Indicates non-fact modality?
 ded.1       	Indicates deduction?
 cont.1      	Expresses continuity?
 sudd.1      	Expresses suddenness?
-pers.1      	Expresses persuasion?
-fin.1       	Indicates finite verb form?
-fin.1       	Indicates non-finite verb form?
+persu.1      	Expresses persuasion?
+fin.1       	IndiŞimdi düşünüyorum da, galiba o parkın dışında yapamayacağım ben, dedi Kerem.cates finite verb form?
+fin.2       	Indicates non-finite verb form?
 nom.1       	Indicates nominatization?

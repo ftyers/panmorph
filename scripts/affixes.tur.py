@@ -2,7 +2,7 @@
 
 # The morphemes are added from the book TURKISH: A COMPREHENSIVE GRAMMAR by Göksel and Kerslake (2005)
 
-# In this dictionary data structure type, we keeps the variants of the same morpheme in order to automatize the writing
+# In this dictionary data structure type, we keep the variants of the same morpheme in order to automatize the writing
 # into the MORPHEME column.
 
 # Keys are the common for for all the variants of a suffix.
