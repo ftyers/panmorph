@@ -175,3 +175,546 @@
 25	.	_	_	_	_	_	_	_	_
 25.1	.	.	_	_	_	_	_	_	_
 
+# sent_id = n01001011
+# text = “While much of the digital transition is unprecedented in the United States, the peaceful transition of power is not,” Obama special assistant Kori Schulman wrote in a blog post Monday.
+1		"		_		_		_		_		_		_		_		_
+1.1		"		"		_		_		_		_		_		_		_
+2		While	_		_		_		_		_		_		_		_
+2.1		While	while	ROOT		_		0		_		_		_		_
+3		much		_		_		_		_		_		_		_		_
+3.1		much		much		ROOT		_		0		_		_		_		_
+4		of		_		_		_		_		_		_		_		_
+4.1		of		of		ROOT		_		0		_		_		_		_
+5		the		_		_		_		_		_		_		_		_
+5.1		the		the		ROOT		_		0		_		_		_		def.1=Yes
+6		digital	_		_		_		_		_		_		_		_
+6.1		digit	digit	ROOT		_		0		_		_		_		_
+6.2		al		al		DERIV	_		1		_		_		_		_
+7		transition		_		_		_		_		_		_		_		_
+7.1		transit	transit	ROOT		_		0		_		_		_		_
+7.2		ion		ion		DERIV	_		1		_		_		_		_
+8		is		_		_		_		_		_		_		_		_
+8.1		is		is		ROOT		_		0		_		_		_		_
+9		unprecedented	_		_		_		_		_		_		_		_
+9.1		un		un		DERIV	_		2		_		_		_		_
+9.2?		precedent		precedent		ROOT		_		0		_		_		_		_
+9.3		ed		ed		INFL		_		1		_		_		_		_
+10		in		_		_		_		_		_		_		_		_
+10.1		in		in		ROOT		_		0		_		_		_		_
+11		the		_		_		_		_		_		_		_		_
+11.1		the		the		ROOT		_		0		_		_		_		def.1=Yes
+12		United	_		_		_		_		_		_		_		_
+12.1		United	United	ROOT		_		0		_		_		_		_
+13		States	_		_		_		_		_		_		_		_
+13.1		States	States 	ROOT		_		0		_		_		_		_		
+14		,		_		_		_		_		_		_		_		_
+14.1		,		,		_		_		_		_		_		_		_
+15		the		_		_		_		_		_		_		_		_
+15.1		the		the		ROOT		_		0		_		_		_		def.1=Yes
+16		peaceful	_		_		_		_		_		_		_		_
+16.1		peace	peace	ROOT		_		0		_		_		_		_		
+16.2	?	ful		ful		DERIV	_		1		_		_		_		_		
+17		transition		_		_		_		_		_		_		_		_
+17.1		transit	transit	ROOT		_		0		_		_		_		_
+17.2		ion		ion		DERIV	_		1		_		_		_		_
+18		of		_		_		_		_		_		_		_		_
+18.1		of		of		ROOT		_		0		_		_		_		_
+19		power	_		_		_		_		_		_		_		_
+19.1		power	power	ROOT		_		0		_		_		_		_		
+20		is		_		_		_		_		_		_		_		_
+20.1		is		is		ROOT		_		0		_		_		_		_		
+21		not		_		_		_		_		_		_		_		_
+21.1		not		not		ROOT		_		0		_		_		_		_	
+22		,		_		_		_		_		_		_		_		_
+22.1		,		,		_		_		_		_		_		_		_
+23		"		_		_		_		_		_		_		_		_
+23.1		"		"		_		_		_		_		_		_		_
+24		Obama	_		_		_		_		_		_		_		_
+24.1		Obama	Obama	ROOT		_		0		_		_		_		_	
+25		special	_		_		_		_		_		_		_		_
+25.1		special	special	ROOT		_		0		_		_		_		_
+26		assistant		_		_		_		_		_		_		_		_
+26.1??	assistant		assistant		ROOT		_		0		_		_		_		_
+27		Kori		_		_		_		_		_		_		_		_
+27.1		Kori		Kori		ROOT		_		0		_		_		_		_
+28		Schulman_		_		_		_		_		_		_		_
+28.1		SchulmanSchulmanROOT		_		0		_		_		_		_
+29		wrote	_		_		_		_		_		_		_		_
+29.1		wrote	wrote	ROOT		_		0		_		_		_		_
+30		in		_		_		_		_		_		_		_		_
+30.1		in		in		ROOT		_		0		_		_		_		_
+31		a		_		_		_		_		_		_		_		_
+31.1		a		a		ROOT		_		0		_		_		_		ind.1=Yes
+32		blog		_		_		_		_		_		_		_		_
+32.1		blog		blog		ROOT		_		0		_		_		_		_
+33		post		_		_		_		_		_		_		_		_
+33.1		post		post		ROOT		_		0		_		_		_		_
+34		Monday	_		_		_		_		_		_		_		_
+34.1		Monday	Monday	ROOT		_		0		_		_		_		_
+35		.		_		_		_		_		_		_		_		_
+35.1		.		.		_		_		_		_		_		_		_
+
+
+
+# sent_id = n01001013
+# text = For those who follow social media transitions on Capitol Hill, this will be a little different.
+1		For		_		_		_		_		_		_		_		_
+1.1		For		for		ROOT		_		0		_		_		_		_
+2		those	_		_		_		_		_		_		_		_
+2.1		those	those	ROOT		_		0		_		_		_		_
+3		who		_		_		_		_		_		_		_		_
+3.1		who		who		ROOT		_		0		_		_		_		_
+4		follow	_		_		_		_		_		_		_		_
+4.1		follow	follow	ROOT		_		0		_		_		_		_
+5		social	_		_		_		_		_		_		_		_
+5.1		social	social	ROOT		_		0		_		_		_		_
+6		media	_		_		_		_		_		_		_		_
+7		transitions		_		_		_		_		_		_		_		_
+7.1		transit	transit	ROOT		_		0		_		_		_		_
+7.2		ion		ion		DERIV	_		1		_		_		_		_
+7.3		s		s		INFL		_		2		PL		_		_		plur.1=Yes
+8		on		_		_		_		_		_		_		_		_
+8.1		on		on		ROOT		_		0		_		_		_		_
+9		Capitol	_		_		_		_		_		_		_		_
+9.1		Capitol capitol	ROOT		_		0		_		_		_		_
+10		Hill		_		_		_		_		_		_		_		_
+10.1		Hill		hill		ROOT		_		0		_		_		_		_
+11		,		_		_		_		_		_		_		_		_
+11.1	,		_		_		_		_		_		_		_		_
+12		this	_		_		_		_		_		_		_		_
+12.1		this		this		ROOT		_		0		_		_		_		_		
+13		will		_		_		_		_		_		_		_		_
+13.1		will		will		ROOT		_		0		_		_		_		fut.1=Yes	
+14		be		_		_		_		_		_		_		_		_
+14.1		be		be		ROOT		_		0		_		_		_		_
+15		a		_		_		_		_		_		_		_		_	
+15.1		a		a		ROOT		_		0		_		_		_		_
+16		little	_		_		_		_		_		_		_		_
+16.1		little	little	ROOT		_		0		_		_		_		_
+17		different		_		_		_		_		_		_		_		_
+17.1		different		different		ROOT		_		0		_		_		_		_
+18		.		_		_		_		_		_		_		_		_
+18.1		.		_		_		_		_		_		_		_		_
+
+
+
+
+# newdoc id = n01002
+# sent_id = n01002017
+# text = But in a break from his past rhetoric about curtailing immigration, the GOP nominee proclaimed that as president he would allow “tremendous numbers” of legal immigrants based on a “merit system.”
+1		But		_		_		_		_		_		_		_		_
+1.1		But		But		ROOT		_		0		_		_		_		_
+2		in		_		_		_		_		_		_		_		_
+2.1		in		in		ROOT		_		0		_		_		_		_
+3		a		_		_		_		_		_		_		_		_
+3.1		a		a		ROOT		_		0		_		_		_		ind.1=Yes
+4		break	_		_		_		_		_		_		_		_
+4.1		break	break	ROOT		_		0		_		_		_		_
+5		from		_		_		_		_		_		_		_		_
+5.1		from		from		ROOT		_		0		_		_		_		_
+6		his		_		_		_		_		_		_		_		_
+6.1		his		his		ROOT		_		0		_		_		_		??
+7		past		_		_		_		_		_		_		_		_
+7.1		past		past		ROOT		_		0		_		_		_		_
+8		rhetoric	_		_		_		_		_		_		_		_
+8.1		rhetoric		rhetoric		ROOT		_		0		_		_		_		_
+9		about	_		_		_		_		_		_		_		_
+9.1		about	about	ROOT		_		0		_		_		_		_
+10		curtailing		_		_		_		_		_		_		_		_
+10.1		curtail	curtail	ROOT		_		0		_		_		_		_
+10.2		ing		ing		INFL		_		1		_		_		_		_
+11		immigration		_		_		_		_		_		_		_		_
+11.1		immigrat	immigrate		ROOT		_		0		_		_		_		_
+11.2		ion
+12		,		_		_		_		_		_		_		_		_
+12.1		,		_		_		_		_		_		_		_		_
+13		the		_		_		_		_		_		_		_		_
+13.1		the		the		ROOT		_		0		_		_		_		_
+14		GOP		_		_		_		_		_		_		_		_
+14.1		GDP		GDP		ROOT		_		0		_		_		_		_
+15		nominee	_		_		_		_		_		_		_		_
+15.1		nomi	n	nominate	ROOT		_		0		_		_		_		nom.1=Yes
+15.2		ee		ee		DERIV	_		1		_		_		_		_
+16		proclaimed		_		_		_		_		_		_		_		_
+16.1		proclaim	procalim	ROOT		_		0		_		_		_		_
+16.2		ed		ed		INFL		_		1		_		_		_		past.1=Yes
+17		that		_		_		_		_		_		_		_		_
+17.1		that		that		ROOT 	_		0		_		_		_		_
+18		as		_		_		_		_		_		_		_		_
+18.1		as		as		ROOT		_		0		_		_		_		_
+19		president		_		_		_		_		_		_		_		_
+19.1		president	president	ROOT		_		0		_		_		_		_
+20		he		_		_		_		_		_		_		_		_
+20.1		he		he		ROOT		_		0		_		_		_		_
+21		would	_		_		_		_		_		_		_		_
+21.1		would	would	ROOT		_		0		_		_		_		??
+22		allow	_		_		_		_		_		_		_		_
+22.1		allow	allow	ROOT		_		0		_		_		_		_
+23		“		_		_		_		_		_		_		_		_
+23.1		“		“		_		_		_		_		_		_		_
+24		tremendous		_		_		_		_		_		_		_		_
+24,1		tremendous	tremendous	ROOT		_		0		_		_		_		_
+25		numbers	_		_		_		_		_		_		_		_
+25.1		number	number	ROOT		_		0		_		_		_		_
+25.2		s		s		INFL		_		1		_		_		_		plur.1=Yes
+26		”		_		_		_		_		_		_		_		_
+26.1		”		_		_		_		_		_		_		_		_
+27		of		_		_		_		_		_		_		_		_
+27.1		of		of		ROOT		_		0		_		_		_		_
+28		legal	_		_		_		_		_		_		_		_
+28.1		legal	legal	ROOT		_		0		_		_		_		_
+29		immigrants		_		_		_		_		_		_		_		_
+29.1		immigrant	immigrant	ROOT		_		0		_		_		_		_
+29.2		s		s		INFL		_		1		_		_		_		_
+30		based	_		_		_		_		_		_		_		_
+30.1		base		base		ROOT		_		0		_		_		_		_
+30.2		d		d		INFL		_		1		_		_		_		_
+31		on		_		_		_		_		_		_		_		_
+31.1		on		on		ROOT		_		0		_		_		_		_
+32		a		_		_		_		_		_		_		_		_
+32.1		a		a		ROOT		_		0		_		_		_		_
+33		“		_		_		_		_		_		_		_		_
+33.1		“		_		_		_		_		_		_		_		_
+34		merit	_		_		_		_		_		_		_		_
+34.1		merit	merit	ROOT		_		0		_		_		_		_
+35		system	_		_		_		_		_		_		_		_
+35.1		system	system	ROOT		_		0		_		_		_		_
+36		.		_		_		_		_		_		_		_		_
+36.1		.		_		_		_		_		_		_		_		_
+37		”		_		_		_		_		_		_		_		_
+37.1		”		_		_		_		_		_		_		_		_
+
+
+# sent_id = n01002032
+# text = “So I hate to put a little pressure on you, but the fate of the republic rests on your shoulders,” he told the crowd gathered on a sports field at the University of North Carolina.
+1		“		_		_		_		_		_		_		_		_
+1.1		“		“		ROOT		_		0		_		_		_		_
+2		So		_		_		_		_		_		_		_		_
+2.1		So		So		ROOT		_		0		_		_		_		_
+3		I		_		_		_		_		_		_		_		_
+3.1		I		I		ROOT		_		0		_		_		_		_
+4		hate		_		_		_		_		_		_		_		_
+4.1		hate		hate		ROOT		_		0		_		_		_		_
+5		to		_		_		_		_		_		_		_		_
+5.1		to		to		ROOT		_		0		_		_		_		_
+6		put		_		_		_		_		_		_		_		_
+6.1		put		put		ROOT		_		0		_		_		_		_
+7		a		_		_		_		_		_		_		_		_
+7.1		a		a		ROOT		_		0		_		_		_		_
+8		little		_		_		_		_		_		_		_		_
+8.1		little		little		ROOT		_		0		_		_		_		_
+9		pressure		_		_		_		_		_		_		_		_
+9.1		pressure		pressure		ROOT		_		0		_		_		_		_
+10		on		_		_		_		_		_		_		_		_
+10.1		on		on		ROOT		_		0		_		_		_		_
+11		you		_		_		_		_		_		_		_		_
+11.1		you		you		ROOT		_		0		_		_		_		_
+12		,		_		_		_		_		_		_		_		_
+12.1		,		,		ROOT		_		0		_		_		_		_
+13		but		_		_		_		_		_		_		_		_
+13.1		but		but		ROOT		_		0		_		_		_		_
+14		the		_		_		_		_		_		_		_		_
+14.1		the		the		ROOT		_		0		_		_		_		_
+15		fate		_		_		_		_		_		_		_		_
+15.1		fate		fate		ROOT		_		0		_		_		_		_
+16		of		_		_		_		_		_		_		_		_
+16.1		of		of		ROOT		_		0		_		_		_		_
+17		the		_		_		_		_		_		_		_		_
+17.1		the		the		ROOT		_		0		_		_		_		_
+18		republic		_		_		_		_		_		_		_		_
+18.1		republic		republic		ROOT		_		0		_		_		_		_
+19		rests		_		_		_		_		_		_		_		_
+19.1		rest		rest		ROOT		_		0		_		_		_		_
+10.2		s		s		INFL		_		1		_		_		_		npast.1=Yes
+20		on		_		_		_		_		_		_		_		_
+20.1		on		on		ROOT		_		0		_		_		_		_
+21		your		_		_		_		_		_		_		_		_
+21.1		your		your		ROOT		_		0		_		_		_		_
+22		shoulders		_		_		_		_		_		_		_		_
+22.1		shoulder		shoulder		ROOT		_		0		_		_		_		_
+22.2		s		s		INFL		_		1		_		_		_		plur.1=Yes
+23		,		_		_		_		_		_		_		_		_
+23.1		,		,		ROOT		_		0		_		_		_		_
+24		”		_		_		_		_		_		_		_		_
+24.1		”		”		ROOT		_		0		_		_		_		_
+25		he		_		_		_		_		_		_		_		_
+25.1		he		he		ROOT		_		0		_		_		_		_
+26		told		_		_		_		_		_		_		_		_
+26.1		told		told		ROOT		_		0		_		_		_		_
+27		the		_		_		_		_		_		_		_		_
+27.1		the		the		ROOT		_		0		_		_		_		_
+28		crowd		_		_		_		_		_		_		_		_
+28.1		crowd		crowd		ROOT		_		0		_		_		_		_
+29		gathered		_		_		_		_		_		_		_		_
+29.1		gather		gather		ROOT		_		0		_		_		_		_
+29.2		ed		ed		INFL		_		1		_		_		_		??
+30		on		_		_		_		_		_		_		_		_
+30.1		on		on		ROOT		_		0		_		_		_		_
+31		a		_		_		_		_		_		_		_		_
+31.1		a		a		ROOT		_		0		_		_		_		_
+32		sports		_		_		_		_		_		_		_		_
+32.1		sports		sports		ROOT		_		0		_		_		_		_
+33		field		_		_		_		_		_		_		_		_
+33.1		field		field		ROOT		_		0		_		_		_		_
+34		at		_		_		_		_		_		_		_		_
+34.1		at		at		ROOT		_		0		_		_		_		_
+35		the		_		_		_		_		_		_		_		_
+35.1		the		the		ROOT		_		0		_		_		_		_
+36		University		_		_		_		_		_		_		_		_
+36.1		University		University		ROOT		_		0		_		_		_		_
+37		of		_		_		_		_		_		_		_		_
+37.1		of		of		ROOT		_		0		_		_		_		_
+38		North		_		_		_		_		_		_		_		_
+38.1		North		North		ROOT		_		0		_		_		_		_
+39		Carolina		_		_		_		_		_		_		_		_
+39.1		Carolina		Carolina		ROOT		_		0		_		_		_		_
+40		.		_		_		_		_		_		_		_		_
+40.1		.		.		_		_		_		_		_		_		_
+
+
+# sent_id = n01002042
+# text = The new spending is fueled by Clinton’s large bank account.
+1		The		_		_		_		_		_		_		_		_
+1.1		The		The		ROOT		_		0		_		_		_		def.1=Yes
+2		new		_		_		_		_		_		_		_		_
+2.1		new		new		ROOT		_		0		_		_		_		_
+3		spending		_		_		_		_		_		_		_		_
+3.1		spend		spending		ROOT		_		0		_		_		_		_
+3.2		ing		ing		INFL		_		1		_		_		_		??
+4		is		_		_		_		_		_		_		_		_
+4.1		is		is		ROOT		_		0		_		_		_		_
+5		fueled		_		_		_		_		_		_		_		_
+5.1		fuel		fuel		ROOT		_		0		_		_		_		_
+5.2		ed		ed		INFL		_		1		_		_		_		??
+6		by		_		_		_		_		_		_		_		_
+6.1		by		by		ROOT		_		0		_		_		_		_
+7		Clinton’s		_		_		_		_		_		_		_		_
+7.1		Clinton		Clinton		ROOT		_		0		_		_		_		_
+7.2		's		's		DERIV	
+8		large		_		_		_		_		_		_		_		_
+8.1		large		large		ROOT		_		0		_		_		_		_
+9		bank		_		_		_		_		_		_		_		_
+9.1		bank		bank		ROOT		_		0		_		_		_		_
+10		account		_		_		_		_		_		_		_		_
+10.1		account		account		ROOT		_		0		_		_		_		_
+11		.		_		_		_		_		_		_		_		_
+11.1		.		.		_		_		_		_		_		_		_
+
+
+# sent_id = n01002058
+# text = What she’s saying and what she’s doing, it — actually, it’s unbelievable.
+1		What		_		_		_		_		_		_		_		_
+1.1		What		What		ROOT		_		0		_		_		_		_
+2		she’s		_		_		_		_		_		_		_		_
+2.1		she		she		ROOT		_		0		_		_		_		_
+2.2		’s		’s		DERIV	_		1		_		_		_		_
+3		saying		_		_		_		_		_		_		_		_
+3.1		say		say		ROOT		_		0		_		_		_		_
+3.2		ing		ing		INFL		_		1		_		_		_		_
+4		and		_		_		_		_		_		_		_		_
+4.1		and		and		ROOT		_		0		_		_		_		conj.1=Yes
+5		what		_		_		_		_		_		_		_		_
+5.1		what		what		ROOT		_		0		_		_		_		_
+6		she’s		_		_		_		_		_		_		_		_
+6.1		she		she		ROOT		_		0		_		_		_		_
+6.2		’s		’s		DERIV		_		1		_		_		_		_
+7		doing		_		_		_		_		_		_		_		_
+7.1		do		do		ROOT		_		0		_		_		_		_
+7.2		ing		ing		INFL		_		1		_		_		_		_ 
+8		,		_		_		_		_		_		_		_		_
+8.1		,		,		_		_		_		_		_		_		_
+9		it		_		_		_		_		_		_		_		_
+9.1		it		it		ROOT		_		0		_		_		_		_
+10		—		_		_		_		_		_		_		_		_
+10.1		—		—		_		_		_		_		_		_		_
+11		actually		_		_		_		_		_		_		_		_
+11.1		actual		actual		ROOT		_		0		_		_		_		_
+11.2		ly		ly		DERIV		_		1		_		_		_		_
+12		,		_		_		_		_		_		_		_		_
+12.1		,		,		_		_		_		_		_		_		_
+13		it’s		_		_		_		_		_		_		_		_
+13.1		it		it		ROOT		_		0		_		_		_		_
+13.2		’s		’s		DERIV		_		1		_		_		_		_
+14		unbelievable		_		_		_		_		_		_		_		_
+14.1		un		un		DERIV		_		2		_		_		_		_
+14.2		believ		believe		ROOT		_		0
+14.3		able		able		DERIV		_		1		_		_		_		_
+15		.		_		_		_		_		_		_		_		_
+15.1		.		.		_		_		_		_		_		_		_
+
+
+
+# sent_id = n01003007
+# text = 
+1		$		_		_		_		_		_		_		_		_
+1.1		$		$		_		_		_		_		_		_		_
+2		5,000		_		_		_		_		_		_		_		_
+2.1		5,000		5,000		ROOT		_		0		_		_		_		_
+3		per		_		_		_		_		_		_		_		_
+3.1		per		per		ROOT		_		0		_		_		_		_
+4		person		_		_		_		_		_		_		_		_
+4.1		person		person		ROOT		_		0		_		_		_		_
+5		,		_		_		_		_		_		_		_		_
+5.1		,		,		_		_		_		_		_		_		_
+6		the		_		_		_		_		_		_		_		_
+6.1		the		the		ROOT		_		0		_		_		_		_
+7		maximum		_		_		_		_		_		_		_		_
+7.1		maximum		maximum		ROOT		_		0		_		_		_		_
+8		allowed		_		_		_		_		_		_		_		_
+8.1		allow		allow		ROOT		_		0		_		_		_		_
+8.2		ed		ed		INFL		_		1		_		_		_		_
+9		.		_		_		_		_		_		_		_		_
+9.1		.		.		_		_		_		_		_		_		_
+
+
+
+# sent_id = n01003010
+# text = In early October, the transition team used the same venue to meet with technology lobbyists, inviting representatives from Uber, the Motion Picture Association of America, the Consumer Technology Association and other groups.
+1		In		_		_		_		_		_		_		_		_
+1.1		In		In		ROOT		_		0		_		_		_		_
+2		early		_		_		_		_		_		_		_		_
+2.1		early		early		ROOT		_		0		_		_		_		_
+3		October		_		_		_		_		_		_		_		_
+3.1		October		October		ROOT		_		0		_		_		_		_
+4		,		_		_		_		_		_		_		_		_
+4.1		,		,		_		_		_		_		_		_		_
+5		the		_		_		_		_		_		_		_		_
+5.1		the		the		ROOT		_		0		_		_		_		def.1=Yes
+6		transition		_		_		_		_		_		_		_		_
+6.1		transition		transition		ROOT		_		0		_		_		_		_
+7		team		_		_		_		_		_		_		_		_
+7.1		team		team		ROOT		_		0		_		_		_		_
+8		used		_		_		_		_		_		_		_		_
+8.1		use		use		ROOT		_		0		_		_		_		_
+8.2		d		ed		INFL		_		1		_		_		_		past.1=Yes
+9		the		_		_		_		_		_		_		_		_
+9.1		the		the		ROOT		_		0		_		_		_		def.1=Yes
+10		same		_		_		_		_		_		_		_		_
+10.1		same		same		ROOT		_		0		_		_		_		_
+11		venue		_		_		_		_		_		_		_		_
+11.1		venue		venue		ROOT		_		0		_		_		_		_
+12		to		_		_		_		_		_		_		_		_
+12.1		to		to		ROOT		_		0		_		_		_		_
+13		meet		_		_		_		_		_		_		_		_
+13.1		meet		meet		ROOT		_		0		_		_		_		_
+14		with		_		_		_		_		_		_		_		_
+14.1		with		with		ROOT		_		0		_		_		_		_
+15		technology		_		_		_		_		_		_		_		_
+15.1		technology		technology		ROOT		_		0		_		_		_		_
+16		lobbyists		_		_		_		_		_		_		_		_
+16.1		lobby		lobby		ROOT		_		0		_		_		_		_
+16.2		ist		ist		DERIV		_		1		_		_		_		_
+16.3		s		s		INFL		_		2		_		_		_		plur.1=Yes
+17		,		_		_		_		_		_		_		_		_
+17.1		,		,		_		_		_		_		_		_		_
+18		inviting		_		_		_		_		_		_		_		_
+18.1		invit		invite		ROOT		_		0		_		_		_		_
+18.2		ing		ing		INFL		_		1		_		_		_		_
+19		representatives		_		_		_		_		_		_		_		_
+19.1		represent		represent		ROOT		_		0		_		_		_		_
+19.2		ative		ative		DERIV		_		1		_		_		_
+19.3		s		s		INFL		_		2		_		_		_		plur.1=Yes
+20		from		_		_		_		_		_		_		_		_
+20.1		from		from		ROOT		_		0		_		_		_		_
+21		Uber		_		_		_		_		_		_		_		_
+21.1		Uber		Uber		ROOT		_		0		_		_		_		_
+22		,		_		_		_		_		_		_		_		_
+22.1		,		,		_		_		_		_		_		_		_
+23		the		_		_		_		_		_		_		_		_
+23.1		the		the		ROOT		_		0		_		_		_		def.1=Yes
+24		Motion		_		_		_		_		_		_		_		_
+24.1		Motion		Motion		ROOT		_		0		_		_		_		_
+25		Picture		_		_		_		_		_		_		_		_
+25.1		Picture		Picture		ROOT		_		0		_		_		_		_
+26		Association		_		_		_		_		_		_		_		_
+26.1		Association		Association		ROOT		_		0		_		_		_		_
+27		of		_		_		_		_		_		_		_		_
+27.1		of		of		ROOT		_		0		_		_		_		_
+28		America		_		_		_		_		_		_		_		_
+28.1		America		America		ROOT		_		0		_		_		_		_
+29		,		_		_		_		_		_		_		_		_
+29.1		,		,		_		_		_		_		_		_		_
+30		the		_		_		_		_		_		_		_		_
+30.1		the		the		ROOT		_		0		_		_		_		def.1=Yes
+31		Consumer		_		_		_		_		_		_		_		_
+31.1		Consumer		Consumer		ROOT		_		0		_		_		_		_
+32		Technology		_		_		_		_		_		_		_		_
+32.1		Technology		Technology		ROOT		_		0		_		_		_		_
+33		Association		_		_		_		_		_		_		_		_
+33.1		Association		Association		ROOT		_		0		_		_		_		_
+34		and		_		_		_		_		_		_		_		_
+34.1		and		and		ROOT		_		0		_		_		_		_
+35		other		_		_		_		_		_		_		_		_
+35.1		other		other		ROOT		_		0		_		_		_		_
+36		groups		_		_		_		_		_		_		_		_
+36.1		group		group		ROOT		_		0		_		_		_		_
+36.2		s		s		INFL		_		1		_		_		_		_
+37		.		_		_		_		_		_		_		_		_
+37.1		.		.		_		_		_		_		_		_		_
+
+
+# sent_id = n01003012
+# text = The gathering was originally slated for Washington’s private Metropolitan Club on H Street a few blocks away.
+1		The		_		_		_		_		_		_		_		_
+1.1		The		The		ROOT		_		0		_		_		_		def.1=Yes
+2		gathering		_		_		_		_		_		_		_		_
+2.1		gather		gather		ROOT		_		0		_		_		_		_
+2.2		ing		ing		DERIV		_		1		_		_		_		nom.1=Yes
+3		was		_		_		_		_		_		_		_		_
+3.1		was		was		ROOT		_		0		_		_		_		past.1=Yes
+4		originally		_		_		_		_		_		_		_		_
+4.1		origin		origin		ROOT		_		0		_		_		_		_
+4.2		al		al		DERIV		_		1		_		_		_		_
+4.3		ly		ly		DERIV		_		2		_		_		_		_
+5		slated		_		_		_		_		_		_		_		_
+5.1		slate		slate		ROOT		_		0		_		_		_		_
+5.2		d		ed		INFL		_		1		_		_		_		??
+6		for		_		_		_		_		_		_		_		_
+6.1		for		for		ROOT		_		0		_		_		_		_
+7		Washington’s		_		_		_		_		_		_		_		_
+7.1		Washington		Washington’s		ROOT		_		0		_		_		_		_
+7.2		’s		’s		DERIV		_		1		_		_		_		_
+8		private		_		_		_		_		_		_		_		_
+8.1		private		private		ROOT		_		0		_		_		_		_
+9		Metropolitan		_		_		_		_		_		_		_		_
+9.1		Metropolitan		Metropolitan		ROOT		_		0		_		_		_		_
+10		Club		_		_		_		_		_		_		_		_
+10.1		Club		Club		ROOT		_		0		_		_		_		_
+11		on		_		_		_		_		_		_		_		_
+11.1		on		on		ROOT		_		0		_		_		_		loc.1=Yes
+12		H		_		_		_		_		_		_		_		_
+12.1		H		H		ROOT		_		0		_		_		_		_
+13		Street		_		_		_		_		_		_		_		_
+13.1		Street		Street		ROOT		_		0		_		_		_		_
+14		a		_		_		_		_		_		_		_		_
+14.1		a		a		ROOT		_		0		_		_		_		_
+15		few		_		_		_		_		_		_		_		_
+15.1		few		few		ROOT		_		0		_		_		_		_
+16		blocks		_		_		_		_		_		_		_		_
+16.1		block		block		ROOT		_		0		_		_		_		_
+16.2		s		s		INFL		_		1		_		_		_		plur.1=Yes		
+17		away		_		_		_		_		_		_		_		_
+17.1		away		away		ROOT		_		0		_		_		_		_
+18		.		_		_		_		_		_		_		_		_
+18.1		.		.		ROOT		_		0		_		_		_		_
+
+# sent_id = n01003013
+# text = Maybe the dress code was too stuffy.
+1		Maybe		_		_		_		_		_		_		_		_
+1.1		Maybe		Maybe		ROOT		_		0		_		_		_		_
+2		the		_		_		_		_		_		_		_		_
+2.1		the		the		ROOT		_		0		_		_		_		def.1=Yes
+3		dress		_		_		_		_		_		_		_		_
+3.1		dress		dress		ROOT		_		0		_		_		_		_
+4		code		_		_		_		_		_		_		_		_
+4.1		code		code		ROOT		_		0		_		_		_		_
+5		was		_		_		_		_		_		_		_		_
+5.1		was		was		ROOT		_		0		_		_		_		past.1=Yes
+6		too		_		_		_		_		_		_		_		_
+6.1		too		too		ROOT		_		0		_		_		_		_
+7		stuffy		_		_		_		_		_		_		_		_
+7.1		stuffy		stuffy		ROOT		_		0		_		_		_		_
+8		.		_		_		_		_		_		_		_		_
+8.1		.		.		_		_		_		_		_		_		_
+
+
