@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="functions.js"></script>
+
+		<style>
+			td,th {
+				border: 0;
+				padding: 0.25em;
+			}
+
+      tr.even td {
+				background-color: #81d4fa;
+      }
+
+      tr.odd td {
+        background-color: #29b6f6;
+      }
+
+			table {
+				border-collapse: collapse;
+        white-space:nowrap;
+        width:80%;
+			}
+
+      table, th, td {
+        border: 1px solid white;
+      }
+
+      select {
+        background-color: transparent;
+        border: 0px solid;
+      }
+
+    </style>
+
+	</head>
+	<body>
+    <div class='converter' align="center">
+      <label for="conllu">Text in UD format:</label><br><br>
+      <textarea name="conText" rows="8" cols="100" id="conllu" placeholder="Paste Text in UD Format."></textarea><br><br>
+      <button type="button" id="convert">Generate Editor</button><br><br>
+      <label for="morllu">Text in Panmorph Format: </label><br><br>
+      <textarea name="morText" rows="8" cols="100" id="morllu" placeholder="Paste Text in Panmorph Format."></textarea><br><br>
+      <button type="button" id="generateInterface">Generate Editor</button><br><br>
+    </div>
+
+
+    <table align="center" id='editor'>
+			<tr id="header">
+				<th>ID </th>
+				<th>Morph </th>
+				<th>Morpheme </th>
+				<th>Type </th>
+				<th>? </th>
+				<th>Level </th>
+				<th>Leipzig </th>
+				<th>UniMorf </th>
+				<th>WALS </th>
+				<th width='30%'>Features</th>
+			</tr>
+		</table>
+
+
+	</body>
+</html>
